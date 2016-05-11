@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         timer.invalidate()
         count = 0
         timeDisplay.text = "0"
-       
     }
 
     @IBOutlet weak var timeDisplay: UITextField!
