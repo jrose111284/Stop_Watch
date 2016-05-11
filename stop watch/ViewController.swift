@@ -16,14 +16,24 @@ class ViewController: UIViewController {
     
     func result() {
         count += 1
-        timeDisplay.text = "/(count)"
+        timeDisplay.text = "\(count)"
     }
+    
     @IBAction func play(sender: AnyObject) {
         
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
         
     }
+    
     @IBAction func pause(sender: AnyObject) {
+        timer.invalidate()
+    }
+    
+    @IBAction func reset(sender: AnyObject) {
+        timer.invalidate()
+        count = 0
+        timeDisplay.text = "0"
+       
     }
 
     @IBOutlet weak var timeDisplay: UITextField!
