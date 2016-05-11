@@ -14,6 +14,8 @@
 		484173A81CE27C08007E20DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484173A61CE27C08007E20DF /* LaunchScreen.storyboard */; };
 		484173B31CE27C08007E20DF /* stop_watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484173B21CE27C08007E20DF /* stop_watchTests.swift */; };
 		484173BE1CE27C08007E20DF /* stop_watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484173BD1CE27C08007E20DF /* stop_watchUITests.swift */; };
+		484173CC1CE32E28007E20DF /* black-stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 484173CB1CE32E28007E20DF /* black-stopwatch.png */; };
+		484173CE1CE32EA3007E20DF /* digital.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 484173CD1CE32EA3007E20DF /* digital.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		484173B91CE27C08007E20DF /* stop watchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stop watchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		484173BD1CE27C08007E20DF /* stop_watchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stop_watchUITests.swift; sourceTree = "<group>"; };
 		484173BF1CE27C08007E20DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484173CB1CE32E28007E20DF /* black-stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-stopwatch.png"; sourceTree = "<group>"; };
+		484173CD1CE32EA3007E20DF /* digital.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = digital.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				484173B11CE27C08007E20DF /* stop watchTests */,
 				484173BC1CE27C08007E20DF /* stop watchUITests */,
 				4841739B1CE27C08007E20DF /* Products */,
+				484173CB1CE32E28007E20DF /* black-stopwatch.png */,
+				484173CD1CE32EA3007E20DF /* digital.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				484173A81CE27C08007E20DF /* LaunchScreen.storyboard in Resources */,
+				484173CC1CE32E28007E20DF /* black-stopwatch.png in Resources */,
 				484173A51CE27C08007E20DF /* Assets.xcassets in Resources */,
+				484173CE1CE32EA3007E20DF /* digital.jpg in Resources */,
 				484173A31CE27C08007E20DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
